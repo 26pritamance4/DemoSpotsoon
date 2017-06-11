@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#d32f2f</color>
+    <color name="colorPrimaryDark">#c72c2c</color>
+    <color name="colorAccent">#FFFFFF</color>
+
+    <color name="tabsScrollColor">#0b68ad</color>
+
+    <color name="black">#000000</color>
+    <color name="toolbar_color">#1D3E4E</color>
+    <color name="blueColor">#0b68ad</color>
+    <color name="backGroundGreyColor">#eaeaea</color>
+    <color name="backgroundDarkGreyColor">#dadada</color>
+    <color name="white">#ffffff</color>
+    <color name="greyColor">#bababa</color>
+    <color name="redColor">#cc0a05</color>
+    <color name="blue_transparent">#800b68ad</color>
+    <color name="greenColor">#2ECC71</color>
+    <color name="appgreenColor">#008E6E</color>
+    <color name="normalGreyColor">#B6B6B4</color>
+    <color name="lgreyColor">#f8f8f8</color>
+
+    <color name="loader_orange">#d95916</color>
+    <color name="loader_green">#068f68</color>
+    <color name="loader_blue">#0b68ad</color>
+    <color name="loader_pink">#d11250</color>
+</resources>

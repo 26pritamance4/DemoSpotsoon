@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/match_wrap"
+              xmlns:android="http://schemas.android.com/apk/res/android"
+              android:background="@drawable/ripple_circular_border"
+              android:gravity="center_vertical"
+              android:layout_marginTop="8dp"
+              android:minHeight="80dp"
+              android:orientation="horizontal">
+
+    <ImageView android:id="@+id/ivIcon"
+               android:layout_width="80dp"
+               android:layout_height="80dp"
+               android:layout_margin="1dp"
+               android:layout_marginRight="@dimen/dimen4dp"
+               android:layout_gravity="center"
+               android:background="@drawable/placeholder"/>
+    <LinearLayout style="@style/match_match"
+                  android:gravity="center_vertical"
+                  android:orientation="vertical"
+                  android:padding="@dimen/dimen4dp">
+
+        <TextView android:id="@+id/tvTitle"
+                  style="@style/match_wrap"
+                  android:textColor="@color/black"
+                  android:textSize="@dimen/dimen14sp"/>
+        <LinearLayout style="@style/match_wrap"
+                      android:orientation="horizontal"
+                      android:gravity="center_vertical">
+            <ImageView android:layout_width="@dimen/dimen10dp"
+                       android:layout_height="@dimen/dimen10dp"
+                       android:src="@drawable/about_us"/>
+            <TextView android:id="@+id/tvTime"
+                      style="@style/match_wrap"
+                      android:textColor="@color/greyColor"
+                      android:textSize="11sp"/>
+        </LinearLayout>
+
+        <TextView android:id="@+id/tvDesc"
+                  style="@style/match_wrap"
+                  android:paddingTop="@dimen/dimen2dp"
+                  android:textColor="@color/greyColor"
+                  android:textSize="11sp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

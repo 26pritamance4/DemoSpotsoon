@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_menu_camera"/>
+
+    <RelativeLayout style="@style/match_wrap"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginBottom="@dimen/dimen30dp"
+                    android:layout_marginLeft="@dimen/dimen30dp"
+                    android:gravity="center_vertical"
+                    android:minHeight="@dimen/dimen50dp">
+        <ImageView
+            android:id="@+id/play"
+            android:layout_width="@dimen/dimen40dp"
+            android:layout_height="@dimen/dimen40dp"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/play"/>
+        <TextView
+            android:id="@+id/tvTitle"
+            style="@style/wrap_wrap"
+            android:layout_marginLeft="@dimen/dimen10dp"
+            android:layout_toRightOf="@+id/play"
+            android:textColor="#FFFFFF"/>
+        <TextView
+            android:id="@+id/tvAuthor"
+            style="@style/wrap_wrap"
+            android:layout_below="@+id/tvTitle"
+            android:layout_marginLeft="@dimen/dimen10dp"
+            android:layout_toRightOf="@+id/play"
+        android:textColor="#FFFFFF"/>
+    </RelativeLayout>
+</RelativeLayout>
